@@ -23,4 +23,4 @@ export interface IProject {
     key_techs: string[];
   }
   
-  export type Category = "react" | "next" | "vanilla" | "full-stack";
+  export type Category = "react" | "next";
