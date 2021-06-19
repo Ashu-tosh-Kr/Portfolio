@@ -71,6 +71,7 @@ const ProjectCard: FunctionComponent<{ data: IProject }> = ({
           </div>
           <button
             onClick={() => setShowDetail(false)}
+            aria-label="Close"
             className="absolute p-1 rounded-full focus:outline-none top-3 right-3 dark:bg-dark-700"
           >
             <MdClose size={30} />

@@ -41,10 +41,15 @@ const Sidebar = () => {
         <a
           href="https://www.linkedin.com/in/ashutosh-kumar-0195151a6/"
           target="_blank"
+          aria-label="LinkedIn profile"
         >
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://github.com/Ashu-tosh-Kr" target="_blank">
+        <a
+          href="https://github.com/Ashu-tosh-Kr"
+          target="_blank"
+          aria-label="LinkedIn profile"
+        >
           <AiFillGithub className="w-8 h-8 cursor-pointer" />
         </a>
       </div>
