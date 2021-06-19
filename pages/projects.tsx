@@ -22,7 +22,7 @@ const Projects = () => {
   };
 
   return (
-    <div className="p-4">
+    <div className="px-2 pt-2">
       <nav className="">
         <ProjectsNavbar
           handleFilterCategory={handleFilterCategory}
