@@ -1,6 +1,6 @@
 import { AiOutlineAntDesign, AiOutlineApi } from 'react-icons/ai'
 import { RiComputerLine } from 'react-icons/ri'
-import { IService, ISkill } from './types'
+import { IProject, IService, ISkill } from './types'
 import { FaServer } from 'react-icons/fa'
 import { MdDeveloperMode } from 'react-icons/md'
 import { BsCircleFill } from 'react-icons/bs'
@@ -89,3 +89,97 @@ export const tools: ISkill[] = [
   },
 
 ]
+
+export const projects: IProject[] = [
+  { 
+    name: "Beach Resort",
+    description:
+      "This is a resort showcase web page",
+    image_path: "/assets/projects/Resort.png",
+    deployed_url: "https://beach-resort-using-react.netlify.app/",
+    github_url: "https://github.com/Ashu-tosh-Kr/beach-resort",
+    category: ["react"],
+    key_techs: ["React", "Contentful", "Context API"],
+  },
+  { 
+    name: "Beach Resort",
+    description:
+      "This is a resort showcase web page",
+    image_path: "/assets/projects/Resort.png",
+    deployed_url: "https://beach-resort-using-react.netlify.app/",
+    github_url: "https://github.com/Ashu-tosh-Kr/beach-resort",
+    category: ["react"],
+    key_techs: ["React", "Contentful", "Context API"],
+  },
+  { 
+    name: "Beach Resort",
+    description:
+      "This is a resort showcase web page",
+    image_path: "/assets/projects/Resort.png",
+    deployed_url: "https://beach-resort-using-react.netlify.app/",
+    github_url: "https://github.com/Ashu-tosh-Kr/beach-resort",
+    category: ["react"],
+    key_techs: ["React", "Contentful", "Context API"],
+  },
+  { 
+    name: "Beach Resort",
+    description:
+      "This is a resort showcase web page",
+    image_path: "/assets/projects/Resort.png",
+    deployed_url: "https://beach-resort-using-react.netlify.app/",
+    github_url: "https://github.com/Ashu-tosh-Kr/beach-resort",
+    category: ["react"],
+    key_techs: ["React", "Contentful", "Context API"],
+  },
+  { 
+    name: "Beach Resort",
+    description:
+      "This is a resort showcase web page",
+    image_path: "/assets/projects/Resort.png",
+    deployed_url: "https://beach-resort-using-react.netlify.app/",
+    github_url: "https://github.com/Ashu-tosh-Kr/beach-resort",
+    category: ["react"],
+    key_techs: ["React", "Contentful", "Context API"],
+  },
+  { 
+    name: "Beach Resort",
+    description:
+      "This is a resort showcase web page",
+    image_path: "/assets/projects/Resort.png",
+    deployed_url: "https://beach-resort-using-react.netlify.app/",
+    github_url: "https://github.com/Ashu-tosh-Kr/beach-resort",
+    category: ["react"],
+    key_techs: ["React", "Contentful", "Context API"],
+  },
+  { 
+    name: "Beach Resort",
+    description:
+      "This is a resort showcase web page",
+    image_path: "/assets/projects/Resort.png",
+    deployed_url: "https://beach-resort-using-react.netlify.app/",
+    github_url: "https://github.com/Ashu-tosh-Kr/beach-resort",
+    category: ["react"],
+    key_techs: ["React", "Contentful", "Context API"],
+  },
+  { 
+    name: "Beach Resort",
+    description:
+      "This is a resort showcase web page",
+    image_path: "/assets/projects/Resort.png",
+    deployed_url: "https://beach-resort-using-react.netlify.app/",
+    github_url: "https://github.com/Ashu-tosh-Kr/beach-resort",
+    category: ["react"],
+    key_techs: ["React", "Contentful", "Context API"],
+  },
+  { 
+    name: "Beach Resort",
+    description:
+      "This is a resort showcase web page",
+    image_path: "/assets/projects/Resort.png",
+    deployed_url: "https://beach-resort-using-react.netlify.app/",
+    github_url: "https://github.com/Ashu-tosh-Kr/beach-resort",
+    category: ["react"],
+    key_techs: ["React", "Contentful", "Context API"],
+  },
+  
+];
