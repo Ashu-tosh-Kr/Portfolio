@@ -2,6 +2,7 @@ import { FunctionComponent, useState } from "react";
 import { IProject } from "../types";
 import { AiFillGithub, AiFillProject } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
+import Image from "next/image";
 
 const ProjectCard: FunctionComponent<{ data: IProject }> = ({
   data: {
@@ -18,7 +19,10 @@ const ProjectCard: FunctionComponent<{ data: IProject }> = ({
 
   return (
     <div className="">
-      <img
+      <Image
+        width={300}
+        height={150}
+        layout="responsive"
         src={image_path}
         alt={name}
         className="rounded-md cursor-pointer"
@@ -28,7 +32,14 @@ const ProjectCard: FunctionComponent<{ data: IProject }> = ({
       {showDetail && (
         <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-4 rounded-md md:grid-cols-2 gap-x-12 bg-gradient-to-tr from-glass-90 dark:from-dark-500 dark:to-dark-500 backdrop-filter backdrop-blur-sm to-white">
           <div className="">
-            <img src={image_path} alt={name} className="rounded-md" />
+            <Image
+              width={300}
+              height={150}
+              layout="responsive"
+              src={image_path}
+              alt={name}
+              className="rounded-md"
+            />
             <div className="flex my-4 justify-evenly">
               <a
                 href={github_url}

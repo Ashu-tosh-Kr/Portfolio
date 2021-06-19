@@ -3,6 +3,7 @@ import { GoLocation } from "react-icons/go";
 import { GiTie } from "react-icons/gi";
 import { useTheme } from "next-themes";
 import { useEffect } from "react";
+import Image from "next/image";
 
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
@@ -13,12 +14,14 @@ const Sidebar = () => {
 
   return (
     <div>
-      <img
+      <Image
+        width={100}
+        height={100}
         className="w-32 h-32 mx-auto rounded-full"
         src={`/assets/profile-${theme === "dark" ? "dark" : "light"}.jpeg`}
         alt="user avatar"
       />
-      <h3 className="my-4 text-xl font-medium tracking-wider font-kaushan">
+      <h3 className="my-2 text-xl font-medium tracking-wider font-kaushan">
         <span className="text-light-fg2 dark:text-light">Ashutosh</span> Kumar
       </h3>
       <p className="px-2 py-1 my-3 rounded-full shadow-custom-light bg-gradient-to-tr from-glass-50 to-glass-90 dark:from-dark-200 dark:to-dark-200">
