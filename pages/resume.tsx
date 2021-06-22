@@ -1,28 +1,57 @@
 import { FunctionComponent } from "react";
 import { languages, tools } from "../data";
 import { ISkill } from "../types";
+import { motion } from "framer-motion";
+import { fadeInUp, routeAnimation } from "../animation";
 
 const Bar: FunctionComponent<{ data: ISkill }> = ({
   data: { Icon, level, name },
 }) => {
+  const variants = {
+    initial: { width: 0 },
+    animate: {
+      width: level,
+      transition: {
+        duration: 0.4,
+        type: "spring",
+        damping: 10,
+        stiffness: 100,
+      },
+    },
+  };
+
   return (
     <div className="w-10/12 my-4 text-white rounded-full shadow-custom-light dark:shadow-custom-dark bg-glass-50 w-50 dark:bg-dark-100">
-      <div
+      <motion.div
         className="flex items-center px-4 py-1 rounded-full bg-gradient-to-r from-light-fg1t to-light-fg2t dark:from-light-fg1 dark:to-light-fg2"
         style={{ width: level }}
+        variants={variants}
+        initial="initial"
+        animate="animate"
       >
         <Icon className="mr-3" />
         {name}
-      </div>
+      </motion.div>
     </div>
   );
 };
 
 const resume = () => {
   return (
-    <div className="px-6 py-2">
+    <motion.div
+      className="px-6 py-2"
+      variants={routeAnimation}
+      initial="initial"
+      animate="animate"
+      exit="exit"
+    >
       {/* Edu and Exp */}
-      <div className="grid grid-cols-2 gap-6">
+      <motion.div
+        className="grid grid-cols-2 gap-6"
+        variants={fadeInUp}
+        initial="initial"
+        animate="animate"
+      >
         {/* Education */}
         <div>
           <h5 className="my-3 text-2xl font-bold">Education</h5>
@@ -43,7 +72,7 @@ const resume = () => {
             <li className="my-3">Creating a careers portal</li>
           </div>
         </div>
-      </div>
+      </motion.div>
       <div className="grid gap-6 md:grid-cols-2">
         {/* Lang and Frameworks */}
         <div>
@@ -66,7 +95,7 @@ const resume = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

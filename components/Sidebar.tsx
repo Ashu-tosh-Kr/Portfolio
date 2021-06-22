@@ -29,8 +29,8 @@ const Sidebar = () => {
       </p>
       <a
         className="flex justify-center px-2 py-1 my-3 rounded-full shadow-custom-light bg-gradient-to-tr from-glass-50 to-glass-90 dark:from-dark-200 dark:to-dark-200 align-center"
-        href=""
-        download="name"
+        href="/assets/Resume.pdf"
+        download="Resume.pdf"
       >
         <GiTie className="w-5 h-5" />
         Download Resume
