@@ -10,6 +10,8 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
             rel="stylesheet"
           />
+          <meta name="keywords" content="Frontend web developer,competitive coder" />
+          <meta name="description" content="Frontend web developer looking for a job" />
         </Head>
         <body className="bg-gradient-to-r from-light-bg1 to-light-bg2 dark:from-dark-200 dark:to-dark-500 dark:text-white">
           <Main />
