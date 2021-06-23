@@ -1,3 +1,4 @@
+const plugin = require('tailwindcss/plugin');
 module.exports = {
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: "class", // or 'media' or 'class'
@@ -7,6 +8,10 @@ module.exports = {
     },
 
     extend: {
+      zIndex: {
+
+        '-10': '-10',
+       },
       boxShadow: {
         "custom-light":
           "0 10px 15px -3px rgba(0, 0, 0, 0.125), 0 4px 6px -2px rgba(0, 0, 0, 0.1)",
