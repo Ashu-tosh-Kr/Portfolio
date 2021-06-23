@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps, router }) {
         <title>Portfolio</title>
       </Head>
       <ThemeProvider attribute="class">
-        <div className="absolute rounded-full -z-10 top-30 right-10 w-44 h-44 bg-gradient-to-tr from-glass-70 to-glass-30"></div>
+        <div className="absolute rounded-full -z-10 top-40 right-20 w-44 h-44 bg-gradient-to-tr from-glass-70 to-glass-30"></div>
         <div className="absolute w-64 h-64 rounded-full -z-10 dark:invisible bg-gradient-to-tr from-glass-70 to-glass-30 bottom-20 left-20"></div>
         <div className="flex items-center justify-center h-screen">
 
