@@ -25,7 +25,7 @@ const Projects = () => {
 
   return (
     <motion.div
-      className="px-2 pt-2 overflow-y-scroll"
+      className="flex flex-col px-2 pt-2 m-1 mb-3 overflow-scroll overflow-y-scroll w-screen95 md:w-screen50 scrollbar-hide md:h-screen75 shadow-custom-light backdrop-filter dark:shadow-custom-dark backdrop-blur-sm bg-gradient-to-tr from-glass-70 to-glass-30 dark:from-dark-700 dark:to-dark-700 lg:col-span-9 rounded-2xl"
       style={{ height: "75vh" }}
       variants={routeAnimation}
       initial="initial"

@@ -13,7 +13,7 @@ const Sidebar = () => {
   // }, []);
 
   return (
-    <div>
+    <div className="p-4 mb-3 text-center w-screen95 md:w-60 md:mr-6 md:h-screen90 shadow-custom-light bg-gradient-to-tr from-glass-70 backdrop-filter dark:shadow-custom-dark backdrop-blur-sm to-glass-30 dark:from-dark-700 dark:to-dark-700 rounded-2xl">
       <Image
         width={100}
         height={100}
@@ -32,7 +32,7 @@ const Sidebar = () => {
         href="/assets/Resume.pdf"
         download="Resume.pdf"
       >
-        <GiTie className="w-5 h-5" />
+        <GiTie className="w-4 h-4 " />
         Download Resume
       </a>
 
@@ -70,14 +70,14 @@ const Sidebar = () => {
       {/*button */}
       <button
         onClick={() => window.open("mailto:kr.ashu465@gmail.com")}
-        className="w-8/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r shadow-custom-light dark:shadow-custom-dark from-light-fg1t to-light-fg2t dark:from-light-fg1 dark:to-light-fg2 focus:outline-none"
+        className="w-8/12 px-5 py-2 my-2 text-xs text-white rounded-full bg-gradient-to-r shadow-custom-light dark:shadow-custom-dark from-light-fg1t to-light-fg2t dark:from-light-fg1 dark:to-light-fg2 focus:outline-none"
       >
         E-mail Me
       </button>
       <button
         suppressHydrationWarning
         onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-        className="w-8/12 px-5 py-2 my-2 text-white capitalize rounded-full shadow-custom-light dark:shadow-custom-dark bg-gradient-to-r from-light-fg1t to-light-fg2t dark:from-light-fg1 dark:to-light-fg2 focus:outline-none"
+        className="w-8/12 px-5 py-2 my-2 text-xs text-white capitalize rounded-full shadow-custom-light dark:shadow-custom-dark bg-gradient-to-r from-light-fg1t to-light-fg2t dark:from-light-fg1 dark:to-light-fg2 focus:outline-none"
       >
         {theme === "light" ? "Light" : "Dark"} Theme
       </button>

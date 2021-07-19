@@ -29,7 +29,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="flex justify-between px-5">
+    <div className="flex justify-between p-3 px-5 mx-2 mb-2 shadow-custom-light backdrop-filter dark:shadow-custom-dark backdrop-blur-sm bg-gradient-to-tr from-glass-50 to-glass-30 dark:from-dark-700 dark:to-dark-700 lg:col-span-9 rounded-2xl">
       <span className="text-lg font-bold border-b-4 lg:text-xl text-light-fg2 border-light-fg2 dark:text-light dark:border-light">
         {activeItem}
       </span>

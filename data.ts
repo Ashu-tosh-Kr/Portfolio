@@ -34,23 +34,33 @@ export const services: IService[] = [
 
 export const languages: ISkill[] = [
   {
-    name: "JAVA",
-    level: "70%",
+    name: "C++",
+    level: "80%",
     Icon: BsCircleFill,
   },
   {
     name: "React.js",
+    level: "80%",
+    Icon: BsCircleFill,
+  },
+  {
+    name: "Tailwind",
+    level: "50%",
+    Icon: BsCircleFill,
+  },
+  {
+    name: "Express.js",
+    level: "60%",
+    Icon: BsCircleFill,
+  },
+  {
+    name: "JAVA",
     level: "70%",
     Icon: BsCircleFill,
   },
   {
     name: "JavaScript",
     level: "60%",
-    Icon: BsCircleFill,
-  },
-  {
-    name: "C++",
-    level: "50%",
     Icon: BsCircleFill,
   },
 
@@ -60,11 +70,6 @@ export const languages: ISkill[] = [
     Icon: BsCircleFill,
   },
 
-  {
-    name: "Tailwind",
-    level: "50%",
-    Icon: BsCircleFill,
-  },
 ]
 export const tools: ISkill[] = [
   {
@@ -84,6 +89,16 @@ export const tools: ISkill[] = [
   },
   {
     name: "Firebase",
+    level: "50%",
+    Icon: BsCircleFill,
+  },
+  {
+    name: "Postman",
+    level: "50%",
+    Icon: BsCircleFill,
+  },
+  {
+    name: "Adove XD",
     level: "50%",
     Icon: BsCircleFill,
   },

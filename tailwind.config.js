@@ -1,4 +1,4 @@
-const plugin = require('tailwindcss/plugin');
+const plugin = require("tailwindcss/plugin");
 module.exports = {
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: "class", // or 'media' or 'class'
@@ -8,10 +8,30 @@ module.exports = {
     },
 
     extend: {
+      height: (theme) => ({
+        screen40: "40vh",
+        screen75: "75vh",
+        screen80: "80vh",
+        screen90: "90vh",
+        screen95: "95vh",
+        "screen/3": "calc(100vh / 3)",
+        "screen/4": "calc(100vh / 4)",
+        "screen/5": "calc(100vh / 5)",
+      }),
+      width: (theme) => ({
+        screen20: "20vw",
+        screen50: "50vw",
+        screen75: "75vw",
+        screen80: "80vw",
+        screen91: "91vw",
+        screen95: "95vw",
+        "screen/3": "calc(100vw / 3)",
+        "screen/4": "calc(100vw / 4)",
+        "screen/5": "calc(100vw / 5)",
+      }),
       zIndex: {
-
-        '-10': '-10',
-       },
+        "-10": "-10",
+      },
       boxShadow: {
         "custom-light":
           "0 10px 15px -3px rgba(0, 0, 0, 0.125), 0 4px 6px -2px rgba(0, 0, 0, 0.1)",
@@ -49,5 +69,5 @@ module.exports = {
       boxShadow: ["dark"],
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")],
 };
