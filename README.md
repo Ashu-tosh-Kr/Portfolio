@@ -4,4 +4,4 @@
 * Tailwind css
 * Typescript
 ##### Dark-Mode enabled
-* Link: https://portfolio-lyart-alpha-50.vercel.app/
+* Link: https://ashutosh.vercel.app/
