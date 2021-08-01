@@ -111,7 +111,7 @@ export const projects: IProject[] = [
     description:
       "This is a resort showcase web page",
     image_path: "/assets/projects/Resort.png",
-    deployed_url: "https://beach-resort-using-react.netlify.app/",
+    deployed_url: "https://myresorts.netlify.app/",
     github_url: "https://github.com/Ashu-tosh-Kr/beach-resort",
     category: ["react"],
     key_techs: ["React", "Contentful", "Context API"],
