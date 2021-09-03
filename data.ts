@@ -132,7 +132,7 @@ export const projects: IProject[] = [
     key_techs: ["Express", "Multer", "AWS SES","AWS S3","MongoDB"],
   },
   {
-    name: "Teachanalogy Main Website",
+    name: "Techanalogy Main Website",
     description:
       "This is the landing website of techanalogy",
     image_path: "/assets/projects/Techanalogy.png",
