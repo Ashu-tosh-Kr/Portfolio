@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
+  font-family: Quicksand !important;
   background: black;
   font-family: sans-serif;
   color: #354358;
@@ -26,4 +28,5 @@ body {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background-image: linear-gradient(to right bottom, #753a88, #753a88);
+  border-radius: 5px;
 }

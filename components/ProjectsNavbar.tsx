@@ -27,7 +27,7 @@ const ProjectsNavbar: FunctionComponent<{
       <ul className="flex space-x-3">
         <NavItem value={"all"} {...props} />
         <NavItem value={"react"} {...props} />
-        <NavItem value={"next"} {...props} />
+        <NavItem value={"express"} {...props} />
       </ul>
     </div>
   );
