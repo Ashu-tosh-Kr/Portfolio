@@ -131,6 +131,16 @@ export const projects: IProject[] = [
     category: ["express"],
     key_techs: ["Express", "Multer", "AWS SES","AWS S3","MongoDB"],
   },
+  {
+    name: "Teachanalogy Main Website",
+    description:
+      "This is the landing website of techanalogy",
+    image_path: "/assets/projects/Techanalogy.png",
+    deployed_url: "https://techanalogy.org/",
+    github_url: "",
+    category: ["next"],
+    key_techs: ["Next", "Framer Motion", "Contentful","Typescript"],
+  },
 
 
 ];
